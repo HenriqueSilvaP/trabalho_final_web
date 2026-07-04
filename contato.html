@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Guia Turístico de Muriaé</title>
+    <link rel="icon" type="image/png" href="img/logo3.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="barra">
+            <a href="index.html" class="marca">
+                <img src="img/logo.png" class="logo" alt="Logotipo BrasilTur">
+            </a>
+            <nav class="menu" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="pontos-turisticos.html">Pontos Turísticos</a></li>
+                    <li><a href="gastronomia.html">Gastronomia</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="contato.html" aria-current="page">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="banner-pagina">
+            <div class="container">
+                <div class="texto-banner">
+                    <h1>Fale com a gente</h1>
+                    <p>Dúvidas, sugestões de passeios ou correções neste guia? Envie uma mensagem.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div class="container duas-colunas" style="align-items:flex-start;">
+
+                <form class="formulario" action="#" method="post">
+                    <div class="linha-campos">
+                        <div class="campo">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto">
+                            <option value="turismo">Sugestão de ponto turístico</option>
+                            <option value="evento">Informações sobre eventos</option>
+                            <option value="erro">Encontrei uma informação errada</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <button type="submit" class="botao botao--principal">Enviar mensagem</button>
+                </form>
+
+                <div class="info-contato">
+                    <h3>Outras formas de contato</h3>
+                    <div class="item">
+                        <span class="marcador">End.</span>
+                        <p>Centro de Muriaé - MG</p>
+                    </div>
+                    <div class="item">
+                        <span class="marcador">Tel.</span>
+                        <p>(32) 1234-5678</p>
+                    </div>
+                    <div class="item">
+                        <span class="marcador">E-mail</span>
+                        <p>contato@brasiltur.com.br</p>
+                    </div>
+                    <div class="item">
+                        <span class="marcador">Redes</span>
+                        <ul class="link-rede">
+                            <li><a href="#"><img class="icone-rede" src="img/whatsapp.png" alt="WhatsApp"></a></li>
+                            <li><a href="#"><img class="icone-rede" src="img/instagram.png" alt="Instagram"></a></li>
+                            <li><a href="#"><img class="icone-rede" src="img/youtube.png" alt="YouTube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <div>
+                <img src="img/logo.png" class="logo" alt="Logotipo BrasilTur" style="margin-bottom:12px;">
+                <p>Guia turístico de Muriaé, na Zona da Mata mineira, aos pés da Serra do Brigadeiro.</p>
+            </div>
+            <div>
+                <h3>Navegação</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="pontos-turisticos.html">Pontos Turísticos</a></li>
+                    <li><a href="gastronomia.html">Gastronomia</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p>Centro de Muriaé - MG</p>
+                <p>contato@brasiltur.com.br</p>
+            </div>
+            <div>
+                <h3>Redes sociais</h3>
+                <ul class="link-rede">
+                    <li><a href="#"><img class="icone-rede" src="img/whatsapp.png" alt="WhatsApp"></a></li>
+                    <li><a href="#"><img class="icone-rede" src="img/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img class="icone-rede" src="img/youtube.png" alt="YouTube"></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="rodape-base">Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
